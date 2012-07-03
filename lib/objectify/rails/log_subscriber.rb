@@ -43,11 +43,11 @@ module Objectify
         debug("    [Policy] Chain halted at #{event.payload[:policy]}. Responding with #{event.payload[:responder]}." + duration(event))
       end
 
-      private
-
       def logger(logger_object = ::Rails.logger)
         logger_object
       end
+
+      private
 
       def debug(message)
         logger.debug message
