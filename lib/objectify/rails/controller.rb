@@ -2,7 +2,6 @@ require "objectify/config/policies"
 require "objectify/executor"
 require "objectify/policy_chain_executor"
 require "objectify/instrumentation"
-require "objectify/rails/renderer"
 require "objectify/rails/routes"
 
 module Objectify
